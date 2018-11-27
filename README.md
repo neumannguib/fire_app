@@ -66,6 +66,10 @@ sensor data, and number of event data to run that.
 
  java -jar mhub-simulator.jar 127.0.0.1 5500 10 3 3
  
+[1]M. Endler, G. Baptista, L. D. Silva, R. Vasconcelos, M. Malcher, V. Pantoja, V. Pinheiro, and J.
+Viterbo,“ContextNet: Context Reasoning and Sharing Middleware for Large-scale Pervasive
+Collaboration and Social Networking,” ACM/USENIX Middlew. Conf., 2011
+ 
 For any other specific problems do not hesitate in writing us through gneumann@inf.puc-rio.br or
 through an issue at https://github.com/neumannguib/fire_app.
 
