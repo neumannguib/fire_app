@@ -5837,3 +5837,189 @@ Node        : neumann-linux
 Process     : java <21285>
 Thread      : durability 7f3b4568d700
 Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1543261040.596336616
+========================================================================================
+Report      : WARNING
+Date        : ter nov 27 07:55:30 -02 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <2422>
+Thread      : main thread 7f3e84782700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1543312530.253171317
+========================================================================================
+Report      : INFO
+Date        : ter nov 27 07:55:30 -02 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <2422>
+Thread      : spliced 7f3e8005d700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1543312530.455299604
+========================================================================================
+Report      : INFO
+Date        : ter nov 27 07:55:30 -02 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <2422>
+Thread      : spliced 7f3e8005d700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1543312530.532943649
+========================================================================================
+Report      : INFO
+Date        : ter nov 27 07:55:30 -02 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <2422>
+Thread      : spliced 7f3e8005d700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1543312530.533234876
+========================================================================================
+Report      : INFO
+Date        : ter nov 27 07:55:30 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <2422>
+Thread      : spliced 7f3e8005d700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1543312530.533950501
+========================================================================================
+Report      : WARNING
+Date        : ter nov 27 07:55:30 -02 2018
+Description : using network interface wlp1s0 (139.82.153.142) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <2422>
+Thread      : ddsi2 7f3e64362700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1543312530.569282075
+========================================================================================
+Report      : INFO
+Date        : ter nov 27 07:55:30 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <2422>
+Thread      : ddsi2 7f3e64362700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1543312530.573666540
+========================================================================================
+Report      : INFO
+Date        : ter nov 27 07:55:31 -02 2018
+Description : The durability service can by identified by ID: 2020066011
+Node        : neumann-linux
+Process     : java <2422>
+Thread      : durability 7f3e646d1700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1543312531.463139601
+========================================================================================
+Report      : INFO
+Date        : ter nov 27 07:55:38 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <2422>
+Thread      : durability 7f3e646d1700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1543312538.469435739
+========================================================================================
+Report      : WARNING
+Date        : ter nov 27 08:17:48 -02 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <7081>
+Thread      : main thread 7f2032fea700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1543313868.217337268
+========================================================================================
+Report      : INFO
+Date        : ter nov 27 08:17:48 -02 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <7081>
+Thread      : spliced 7f20180a4700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1543313868.227469430
+========================================================================================
+Report      : INFO
+Date        : ter nov 27 08:17:48 -02 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <7081>
+Thread      : spliced 7f20180a4700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1543313868.234481953
+========================================================================================
+Report      : INFO
+Date        : ter nov 27 08:17:48 -02 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <7081>
+Thread      : spliced 7f20180a4700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1543313868.234826056
+========================================================================================
+Report      : INFO
+Date        : ter nov 27 08:17:48 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <7081>
+Thread      : spliced 7f20180a4700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1543313868.235468630
+========================================================================================
+Report      : WARNING
+Date        : ter nov 27 08:17:48 -02 2018
+Description : using network interface wlp1s0 (139.82.153.142) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <7081>
+Thread      : ddsi2 7f1ff2bf9700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1543313868.238839998
+========================================================================================
+Report      : INFO
+Date        : ter nov 27 08:17:48 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <7081>
+Thread      : ddsi2 7f1ff2bf9700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1543313868.245757674
+========================================================================================
+Report      : INFO
+Date        : ter nov 27 08:17:48 -02 2018
+Description : The durability service can by identified by ID: 2062253866
+Node        : neumann-linux
+Process     : java <7081>
+Thread      : durability 7f1ff2f68700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1543313868.355913234
+========================================================================================
+Report      : INFO
+Date        : ter nov 27 08:17:55 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <7081>
+Thread      : durability 7f1ff2f68700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1543313875.363664059
