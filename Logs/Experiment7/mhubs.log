@@ -1,0 +1,438 @@
+ReliableSocket: new utils pool size = 3
+{"tag":"SensorData","uuid":"a1d402dd-dc98-424f-a551-47b61f805607","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[56.770206,286.39044],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1442169467}
+{"tag":"SensorData","uuid":"283e85a5-fdec-4e54-b70c-331dd82b9b8a","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[138.56758,20.034779],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1442169467}
+{"tag":"SensorData","uuid":"283e85a5-fdec-4e54-b70c-331dd82b9b8a","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[298.02844,20.003164],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1442169467}
+{"tag":"SensorData","uuid":"dc54b0a3-034d-484c-8622-1c66148b5e5a","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[268.69846,232.35806],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1442169467}
+nov 26, 2018 2:58:12 PM lac.cnclib.net.mrudp.MrUdpNodeConnection sendObject
+ADVERTÊNCIA: Can't send message now. Socket is closed or in handover
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[239.76425,145.87097],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1442169467}
+java.io.IOException: Can't send message now. Socket is closed or in handover
+	at lac.cnclib.net.mrudp.MrUdpNodeConnection.sendObject(MrUdpNodeConnection.java:388)
+	at lac.cnclib.net.mrudp.MrUdpNodeConnection.sendObject(MrUdpNodeConnection.java:374)
+	at lac.cnclib.net.mrudp.MrUdpNodeConnection.sendMessage(MrUdpNodeConnection.java:361)
+	at br.pucrio.inf.lac.mhub_simulator.mhub.connected(mhub.java:71)
+	at lac.cnclib.net.mrudp.MrUdpNodeConnection$MyReliableSocketStateListener.connectionOpened(MrUdpNodeConnection.java:539)
+	at net.rudp.ReliableSocket.connectionOpened(ReliableSocket.java:977)
+	at net.rudp.ReliableSocket.handleSYNSegment(ReliableSocket.java:1120)
+	at net.rudp.ReliableSocket.scheduleReceive(ReliableSocket.java:1813)
+	at net.rudp.AsyncScheduler$ReceiveTask.run(AsyncScheduler.java:172)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"AVGTemp",
+		"rule":"SELECT avg(sensorValue[0]) as value_tmp FROM
+		SensorData(sensorName='Temperature')
+		.win:time_batch(10 sec)",
+		"target":"local"
+	}}]
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"AVGTemp",
+		"rule":"SELECT avg(sensorValue[0]) as value_tmp FROM
+		SensorData(sensorName='Temperature')
+		.win:time_batch(10 sec)",
+		"target":"local"
+	}}]
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"AVGHumidity",
+		"rule":"SELECT avg(sensorValue[0]) as value_humi FROM
+		SensorData(sensorName='Humidity')
+		.win:time_batch(10 sec)",
+		"target":"global"
+	}}]
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"MaxAVG",
+		"rule":"SELECT max(value_tmp) as average_tmp FROM
+		AVGTemp.win:length_batch(3)",
+		"target":"global"
+	}}]
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"MaxAVG",
+		"rule":"SELECT max(value_tmp) as average_tmp FROM
+		AVGTemp.win:length_batch(3)",
+		"target":"global"
+	}}]
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"AVGTemp",
+		"rule":"SELECT avg(sensorValue[0]) as value_tmp FROM
+		SensorData(sensorName='Temperature')
+		.win:time_batch(10 sec)",
+		"target":"local"
+	}}]
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"AVGHumidity",
+		"rule":"SELECT avg(sensorValue[0]) as value_humi FROM
+		SensorData(sensorName='Humidity')
+		.win:time_batch(10 sec)",
+		"target":"global"
+	}}]
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"AVGHumidity",
+		"rule":"SELECT avg(sensorValue[0]) as value_humi FROM
+		SensorData(sensorName='Humidity')
+		.win:time_batch(10 sec)",
+		"target":"global"
+	}}]
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"MaxAVG",
+		"rule":"SELECT max(value_tmp) as average_tmp FROM
+		AVGTemp.win:length_batch(3)",
+		"target":"global"
+	}}]
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"AVGTemp",
+		"rule":"SELECT avg(sensorValue[0]) as value_tmp FROM
+		SensorData(sensorName='Temperature')
+		.win:time_batch(10 sec)",
+		"target":"local"
+	}}]
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"MaxAVG",
+		"rule":"SELECT max(value_tmp) as average_tmp FROM
+		AVGTemp.win:length_batch(3)",
+		"target":"global"
+	}}]
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"AVGHumidity",
+		"rule":"SELECT avg(sensorValue[0]) as value_humi FROM
+		SensorData(sensorName='Humidity')
+		.win:time_batch(10 sec)",
+		"target":"global"
+	}}]
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[213.58934,233.94635],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493782}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[109.291504,296.3109],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493784}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[49.589806,194.95818],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493785}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[97.02612,73.15081],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493786}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[171.40524,79.10539],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493787}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[142.96274,278.05817],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493798}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[294.58014,277.7337],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493799}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[183.5205,126.59859],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493799}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[0.8084178,185.05688],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493800}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[159.1199,83.755356],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493802}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[1.0172725,35.668213],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493803}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[192.88208,21.22906],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493804}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[299.3884,119.86667],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493804}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[12.618309,292.903],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493821}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[126.33589,61.68591],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493822}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[56.765198,162.93398],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493822}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[200.80487,245.59154],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493823}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[66.21836,190.95497],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493832}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[114.55611,175.87286],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493833}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[201.6366,276.8561],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493833}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":139.63637100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251493834}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":7.345867},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251494860}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":42.327225100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251494861}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":183.06908},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251495862}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":95.41766100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251495863}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":98.530754},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251496865}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":184.163100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251496867}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":155.95703},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251497870}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":91.44522100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251497873}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":25.747013},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251498874}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":21.024727100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251498877}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":1.2506962},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251499878}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":70.28986100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251499881}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":120.64346},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251500891}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":18.435526100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251500894}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":150.97556},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251501895}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":119.68818100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251501896}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":192.2792},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251502897}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":23.357605100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251502898}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":2.366972},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251503906}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":188.27048100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251503908}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":151.28642},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251504910}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":21.02449100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251504911}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":8.653175},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251505914}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":189.34612100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251505915}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":127.62613},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251506919}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":157.89442100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251506920}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":4.2609215},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251507936}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":190.05177100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251507937}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":128.94122},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251508941}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":20.361115100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251508942}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":127.94733},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251509945}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":133.69417100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251509946}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":80.25478},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251510948}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":54.23709100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251510949}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":146.31247},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251511956}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":174.20169100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251511957}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":167.46655},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251512958}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":110.06179100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251512960}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":173.116},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251513963}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[24.614775,254.50728],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251513964}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[74.9033,187.87361],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251513968}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[45.865204,84.57624],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251513969}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[109.33131,76.39595],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251513970}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[215.78963,221.8331],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251513976}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[12.30036,144.17343],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251513992}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[0.23083091,289.91513],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251513997}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[155.8315,263.7453],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251514001}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[141.4971,256.705],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251514002}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[128.01317,228.73369],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251514004}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[121.804115,196.72755],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251514012}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[100.25595,259.66138],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251514012}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[273.3843,183.90378],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251514016}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[132.47984,207.97055],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251514017}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[93.74195,166.95747],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251514017}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[67.73939,26.64265],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251514017}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[255.2512,213.07048],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251514023}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[92.55227,195.64339],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251514024}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[158.12477,8.413696],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251514024}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[251.55658,213.62164],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251514025}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":71.118774100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251514035}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":156.62135},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251515035}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":30.853188100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251515038}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":14.839673},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251516044}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":129.1654100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251516045}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":189.22508},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251517046}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":94.23459100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251517047}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":46.963047},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251518048}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":10.845602100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251518050}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":61.059834},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251519052}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":155.79826100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251519053}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":157.52797},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251520055}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":47.163628100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251520056}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":158.99779},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251521057}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":90.62449100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251521058}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":184.52126},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251522059}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":185.24417100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251522060}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":120.706535},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251523061}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":19.739426100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251523061}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":192.41385},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251524062}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":40.38893100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251524065}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":113.70171},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251525066}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":44.096302100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251525067}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":111.47435},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251526068}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":62.3381100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251526069}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":127.57225},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251527070}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":161.84637100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251527071}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":149.7119},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251528072}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":56.05414100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251528073}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":150.47107},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251529073}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":14.570975100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251529074}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":106.04955},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251530075}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":118.22836100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251530076}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":170.80331},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251531077}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":14.726007100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251531077}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":158.82977},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251532078}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":68.85176100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251532079}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":12.380958},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251533080}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":140.6567100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251533081}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":198.57039},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534104}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[168.98373,94.69705],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534105}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[293.74658,74.69974],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534106}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[55.71363,120.75108],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534114}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[55.071384,274.89743],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534119}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[92.66982,224.48505],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534120}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[96.49303,277.06372],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534121}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[84.63301,231.07487],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534121}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[48.64272,74.20151],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534122}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[291.6686,296.9363],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534125}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[265.56064,14.179998],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534125}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[4.3610215,194.3986],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534126}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[213.3055,40.497295],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534126}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[257.6356,204.12619],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534139}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[223.19603,234.85669],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534140}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[119.472115,193.66905],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534140}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[24.464214,230.66287],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534141}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[215.63239,293.7887],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534145}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[235.04051,276.72717],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534146}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[8.550185,270.27927],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534146}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[79.14126,20.025747],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534147}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":127.49274100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251534154}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":16.75068},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251535155}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":101.91423100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251535156}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":116.8725},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251536170}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":154.61424100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251536171}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":132.7671},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251537172}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":41.045403100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251537174}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":119.141495},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251538179}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":173.19774100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251538180}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":10.096825},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251539181}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":65.960075100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251539182}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":119.843636},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251540183}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":104.03118100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251540184}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":166.19066},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251541187}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":144.56424100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251541188}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":62.49218},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251542188}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":92.57014100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251542189}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":22.077297},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251543196}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":180.89095100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251543196}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":72.705505},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251544198}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":67.81373100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251544200}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":3.034556},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251545201}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":185.9228100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251545201}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":97.35},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251546202}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":50.092186100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251546203}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":123.451805},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251547206}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":161.00551100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251547207}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":138.26195},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251548208}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":37.578964100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251548209}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":77.20443},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251549209}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":127.44962100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251549210}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":8.373249},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251550211}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":28.572762100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251550211}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":89.09658},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251551212}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":9.725439100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251551212}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":164.91325},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251552213}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":111.96187100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251552213}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":164.51135},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251553214}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":121.48647100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251553215}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":179.33194},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554216}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[122.56522,169.28955],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554217}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[66.88667,137.68811],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554220}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[260.77505,112.226524],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554221}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[121.11218,171.68922],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554222}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[55.96429,101.97809],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554228}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[299.02347,203.913],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554229}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[25.024403,125.38735],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554229}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[168.9076,268.49417],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554229}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[210.95438,175.87138],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554236}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[240.3664,68.482056],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554237}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[285.1419,105.07631],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554237}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[200.67128,266.2797],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554238}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[55.46179,40.79182],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554242}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[272.95526,171.65253],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554243}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[255.91245,79.35301],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554243}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[49.416767,189.27881],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554243}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[144.68723,102.77367],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554250}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[245.68387,112.15403],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554250}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[164.1184,225.58008],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554250}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[264.11554,263.22186],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554251}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":143.9529100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251554252}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":85.265114},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251555252}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":114.73651100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251555253}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":47.72426},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251556255}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":20.847713100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251556256}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":198.27312},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251557256}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":13.816047100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251557257}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":82.330284},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251558257}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":137.83167100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251558258}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":124.78845},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251559259}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":195.85036100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251559260}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":171.4498},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251560260}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":105.75514100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251560261}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":42.34178},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251561261}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":120.51756100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251561262}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":183.47928},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251562263}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":169.12859100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251562264}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":9.870302},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251563264}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":140.52182100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251563265}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":73.070145},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251564266}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":128.79462100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251564267}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":70.62963},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251565267}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":137.56322100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251565267}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":66.75459},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251566268}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":43.131577100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251566269}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":13.000977},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251567269}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":64.80986100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251567270}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":122.72661},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251568278}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":89.18152100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251568279}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":34.023476},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251569279}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":137.3837100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251569280}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":34.71757},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251570281}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":0.23874044100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251570281}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":111.03517},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251571282}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":38.844345100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251571282}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":159.00261},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251572283}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":149.04764100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251572285}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":152.83823},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251573286}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":153.95921100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251573286}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":109.59984},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574287}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[23.624092,129.81223],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574287}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[122.957436,65.750656],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574288}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[29.589432,45.841778],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574288}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[140.09004,145.72786],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574288}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[142.15233,49.493607],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574298}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[176.29657,146.83667],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574299}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[294.25635,126.856],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574299}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[245.1487,146.74957],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574299}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[183.43388,125.05018],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574308}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[236.92609,82.24983],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574308}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[251.80035,82.02306],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574308}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[208.26929,111.782524],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574309}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[87.73268,208.86578],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574321}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[123.3319,287.83203],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574322}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[29.77463,201.6782],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574322}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[14.027148,188.17445],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574322}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[220.1917,72.31393],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574324}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[47.20938,86.93617],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574325}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[71.67674,210.36896],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574325}
+{"tag":"SensorData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[117.06099,211.1399],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574325}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":22.889328100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251574337}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":45.652424},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251575338}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":154.40656100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251575339}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":63.607956},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251576340}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":138.28006100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251576340}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":99.01038},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251577341}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":48.227238100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251577341}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":78.736725},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251578342}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":3.707993100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251578343}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":9.606314},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251579344}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":153.67719100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251579344}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":157.26813},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251580345}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":101.58395100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251580346}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":65.40259},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251581347}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":174.94662100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251581348}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":157.83662},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251582348}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":198.77469100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251582349}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":119.79178},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251583350}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":173.18385100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251583351}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":33.539345},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251584351}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":29.807985100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251584352}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":145.06229},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251585353}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":59.18077100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251585353}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":66.27629},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251586354}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":23.034203100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251586354}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":50.974594},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251587355}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":17.976261100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251587355}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":161.19829},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251588355}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":63.556255100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251588356}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":145.70949},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251589357}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":50.410057100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251589357}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":35.132454},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251590357}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":192.37225100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251590358}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":54.078423},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251591358}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":134.68108100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251591359}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":110.40037},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251592360}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":104.50723100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251592361}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":153.20311},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251593362}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"MaxAVG","data":{"average_tmp":172.44453100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251593362}
+{"tag":"EventData","uuid":"9e672d54-e218-4889-9dad-b25e00b9e027","label":"AVGHumidity","data":{"value_humi":97.552574},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251594363}
+Tempo decorrido em milissegundos: 102048
+Unsent Messages: 0
+Unsent Messages: 0
+Node a1d402dd-dc98-424f-a551-47b61f805607 disconnected
+Node 283e85a5-fdec-4e54-b70c-331dd82b9b8a disconnected
+Unsent Messages: 0
+Node 9e672d54-e218-4889-9dad-b25e00b9e027 disconnected
+Unsent Messages: 0
+Node cef3008f-a782-4d28-82ba-d715ad92e5bf disconnected
+Unsent Messages: 0
+Node dc54b0a3-034d-484c-8622-1c66148b5e5a disconnected

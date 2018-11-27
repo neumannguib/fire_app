@@ -1,0 +1,38 @@
+Database login
+User:
+Password
+Database server connected
+org.postgresql.jdbc.PgConnection@2a33fae0
+Maximum temperature to inform Supervisor:
+Maximum temperature to inform Fire Department:
+Minimum humidity to inform Fire Risk:
+
+A broadcast message was sent to all nodes in the network. Please, if you want to see the connected nodes enter r, else enter q:
+r: refresh
+q: quit
+>> Mobile Hub connected: 7b669133-bf3c-4a83-a4df-a630e3f600c8
+>> Client connected
+>> Client connected
+
+=========================================================
+Fire detected: 185,93ºC -22,799545 -43,445945
+=========================================================
+
+
+=========================================================
+Fire risk  23,74% humididty -22,799545 -43,445945
+=========================================================
+
+
+=========================================================
+Fire detected: 150,23ºC -22,799545 -43,445945
+=========================================================
+
+
+=========================================================
+Fire risk  32,66% humididty -22,799545 -43,445945
+=========================================================
+
+Events (humi+fire): 6 
+ Humidity sensor data: 0 
+ Temperature sensor data: 4

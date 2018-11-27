@@ -1,0 +1,91 @@
+ReliableSocket: new utils pool size = 3
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[59.20254,23.88704],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1442169467}
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"AVGTemp",
+		"rule":"SELECT avg(sensorValue[0]) as value_tmp FROM
+		SensorData(sensorName='Temperature')
+		.win:time_batch(10 sec)",
+		"target":"local"
+	}}]
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"AVGHumidity",
+		"rule":"SELECT avg(sensorValue[0]) as value_humi FROM
+		SensorData(sensorName='Humidity')
+		.win:time_batch(10 sec)",
+		"target":"global"
+	}}]
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"MaxAVG",
+		"rule":"SELECT max(value_tmp) as average_tmp FROM
+		AVGTemp.win:length_batch(3)",
+		"target":"global"
+	}}]
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[135.10268,47.906452],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145389}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[174.89078,147.68008],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145391}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[250.77515,184.3457],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145393}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[206.80106,160.1043],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145395}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[220.48422,158.25989],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145396}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[117.933014,125.061104],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145410}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[285.4897,150.58867],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145411}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[169.66504,82.990715],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145412}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[152.3985,249.30698],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145416}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[86.963905,247.97122],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145435}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[16.49412,287.34122],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145436}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[180.48006,168.60382],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145437}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[38.22863,132.26064],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145437}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[97.68525,291.109],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145450}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[109.28648,2.0106375],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145451}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[19.595272,97.03858],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145454}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[186.29053,297.08167],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145460}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[191.57263,39.205204],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145465}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[48.349606,298.5775],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145467}
+{"tag":"SensorData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","source":"00000000-0000-0000-0001-bc6a29aecef5","action":"read","signal":-48,"sensor_name":"Temperature","sensor_value":[202.60007,215.28304],"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145468}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":49.781025100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251145478}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":97.56087},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251146479}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":134.23085100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251146481}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":192.31015},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251147482}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":127.65577100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251147483}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":32.8238},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251148485}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":198.10684100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251148486}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":160.18356},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251149487}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":188.19261100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251149491}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":65.69649},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251150500}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":95.39799100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251150501}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":26.71858},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251151502}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":198.78561100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251151503}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":185.35971},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251152504}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":51.33003100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251152505}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":104.42512},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251153508}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":75.74986100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251153509}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":164.98},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251154509}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":10.591364100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251154511}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":126.56769},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251155512}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":118.01853100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251155513}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":154.16568},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251156518}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":198.70573100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251156519}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":164.10966},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251157524}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":68.03086100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251157525}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":156.2024},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251158526}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":185.34116100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251158527}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":12.295998},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251159538}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":151.85532100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251159538}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":121.46736},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251160539}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":47.021877100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251160540}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":197.11703},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251161540}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":68.40835100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251161542}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":103.40102},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251162542}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":35.140705100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251162543}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":66.32163},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251163545}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":34.936356100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251163548}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":160.17229},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251164559}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"MaxAVG","data":{"average_tmp":8.896816100},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251164560}
+{"tag":"EventData","uuid":"b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72","label":"AVGHumidity","data":{"value_humi":190.63342},"latitude":-22.799545,"longitude":-43.445945,"timestamp":1543251165561}
+Tempo decorrido em milissegundos: 21461
+Unsent Messages: 0
+Node b2d0a5b2-0b67-4a88-b7ac-f8a8ff8c0c72 disconnected

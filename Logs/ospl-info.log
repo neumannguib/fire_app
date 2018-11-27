@@ -1,0 +1,3115 @@
+========================================================================================
+Report      : WARNING
+Date        : qua out 24 09:36:00 -03 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <2533>
+Thread      : main thread 7fc478c23700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1540384560.631725256
+========================================================================================
+Report      : INFO
+Date        : qua out 24 09:36:00 -03 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <2533>
+Thread      : spliced 7fc474022700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1540384560.771085586
+========================================================================================
+Report      : INFO
+Date        : qua out 24 09:36:00 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <2533>
+Thread      : spliced 7fc474022700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1540384560.796006768
+========================================================================================
+Report      : INFO
+Date        : qua out 24 09:36:00 -03 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <2533>
+Thread      : spliced 7fc474022700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1540384560.796572710
+========================================================================================
+Report      : INFO
+Date        : qua out 24 09:36:00 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <2533>
+Thread      : spliced 7fc474022700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1540384560.797314846
+========================================================================================
+Report      : WARNING
+Date        : qua out 24 09:36:00 -03 2018
+Description : using network interface wlp1s0 (139.82.153.142) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <2533>
+Thread      : ddsi2 7fc45c82e700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1540384560.839169349
+========================================================================================
+Report      : INFO
+Date        : qua out 24 09:36:00 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <2533>
+Thread      : ddsi2 7fc45c82e700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1540384560.843363590
+========================================================================================
+Report      : INFO
+Date        : qua out 24 09:36:01 -03 2018
+Description : The durability service can by identified by ID: 1801389697
+Node        : neumann-linux
+Process     : java <2533>
+Thread      : durability 7fc45cbf2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1540384561.034654618
+========================================================================================
+Report      : INFO
+Date        : qua out 24 09:36:08 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <2533>
+Thread      : durability 7fc45cbf2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1540384568.042679542
+========================================================================================
+Report      : WARNING
+Date        : qua out 24 13:55:30 -03 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <3026>
+Thread      : main thread 7fd38882f700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1540400130.026970560
+========================================================================================
+Report      : INFO
+Date        : qua out 24 13:55:30 -03 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <3026>
+Thread      : spliced 7fd36ccad700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1540400130.036854756
+========================================================================================
+Report      : INFO
+Date        : qua out 24 13:55:30 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <3026>
+Thread      : spliced 7fd36ccad700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1540400130.044466223
+========================================================================================
+Report      : INFO
+Date        : qua out 24 13:55:30 -03 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <3026>
+Thread      : spliced 7fd36ccad700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1540400130.044861441
+========================================================================================
+Report      : INFO
+Date        : qua out 24 13:55:30 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3026>
+Thread      : spliced 7fd36ccad700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1540400130.045440192
+========================================================================================
+Report      : WARNING
+Date        : qua out 24 13:55:30 -03 2018
+Description : using network interface wlp1s0 (139.82.153.142) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <3026>
+Thread      : ddsi2 7fd36c486700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1540400130.047357478
+========================================================================================
+Report      : INFO
+Date        : qua out 24 13:55:30 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3026>
+Thread      : ddsi2 7fd36c486700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1540400130.052763963
+========================================================================================
+Report      : INFO
+Date        : qua out 24 13:55:30 -03 2018
+Description : The durability service can by identified by ID: 1896383410
+Node        : neumann-linux
+Process     : java <3026>
+Thread      : durability 7fd36c7f5700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1540400130.263031045
+========================================================================================
+Report      : INFO
+Date        : qua out 24 13:55:37 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3026>
+Thread      : durability 7fd36c7f5700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1540400137.270554736
+========================================================================================
+Report      : WARNING
+Date        : qua out 24 14:16:12 -03 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <3965>
+Thread      : main thread 7fe82de25700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1540401372.448534845
+========================================================================================
+Report      : INFO
+Date        : qua out 24 14:16:12 -03 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <3965>
+Thread      : spliced 7fe828014700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1540401372.459239371
+========================================================================================
+Report      : INFO
+Date        : qua out 24 14:16:12 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <3965>
+Thread      : spliced 7fe828014700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1540401372.466975888
+========================================================================================
+Report      : INFO
+Date        : qua out 24 14:16:12 -03 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <3965>
+Thread      : spliced 7fe828014700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1540401372.467322202
+========================================================================================
+Report      : INFO
+Date        : qua out 24 14:16:12 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3965>
+Thread      : spliced 7fe828014700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1540401372.467860578
+========================================================================================
+Report      : WARNING
+Date        : qua out 24 14:16:12 -03 2018
+Description : using network interface wlp1s0 (139.82.153.142) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <3965>
+Thread      : ddsi2 7fe811a82700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1540401372.470189763
+========================================================================================
+Report      : INFO
+Date        : qua out 24 14:16:12 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3965>
+Thread      : ddsi2 7fe811a82700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1540401372.475632761
+========================================================================================
+Report      : INFO
+Date        : qua out 24 14:16:12 -03 2018
+Description : The durability service can by identified by ID: 835138895
+Node        : neumann-linux
+Process     : java <3965>
+Thread      : durability 7fe811df1700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1540401372.591121269
+========================================================================================
+Report      : INFO
+Date        : qua out 24 14:16:19 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3965>
+Thread      : durability 7fe811df1700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1540401379.998734793
+========================================================================================
+Report      : WARNING
+Date        : qua out 24 14:21:08 -03 2018
+Description : Missed heartbeat for node - heartbeat id : 721143278. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3026>
+Thread      : OSPL Garbage Collector 7fd36cae6700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1540401668.168403631
+========================================================================================
+Report      : WARNING
+Date        : qua out 24 14:21:08 -03 2018
+Description : Missed heartbeat for node - heartbeat id : 721143278. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3965>
+Thread      : OSPL Garbage Collector 7fe8120e2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1540401668.490161706
+========================================================================================
+Report      : WARNING
+Date        : qua out 24 14:24:20 -03 2018
+Description : Missed heartbeat for node - heartbeat id : 128092156. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3026>
+Thread      : OSPL Garbage Collector 7fd36cae6700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1540401860.178996941
+========================================================================================
+Report      : WARNING
+Date        : qua out 24 14:24:20 -03 2018
+Description : Missed heartbeat for node - heartbeat id : 128092156. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3965>
+Thread      : OSPL Garbage Collector 7fe8120e2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1540401860.500766298
+========================================================================================
+Report      : WARNING
+Date        : qua out 24 14:36:18 -03 2018
+Description : Missed heartbeat for node - heartbeat id : 536168793. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3965>
+Thread      : OSPL Garbage Collector 7fe8120e2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1540402578.544811506
+========================================================================================
+Report      : WARNING
+Date        : qua out 24 14:36:20 -03 2018
+Description : Missed heartbeat for node - heartbeat id : 536168793. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3026>
+Thread      : OSPL Garbage Collector 7fd36cae6700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1540402580.209278916
+========================================================================================
+Report      : WARNING
+Date        : qua out 24 14:36:32 -03 2018
+Description : Missed heartbeat for node - heartbeat id : 835138895. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3026>
+Thread      : OSPL Garbage Collector 7fd36cae6700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1540402592.225401036
+========================================================================================
+Report      : WARNING
+Date        : qua out 31 14:59:41 -03 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <3069>
+Thread      : main thread 7fd915e86700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1541008781.493508311
+========================================================================================
+Report      : INFO
+Date        : qua out 31 14:59:41 -03 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <3069>
+Thread      : spliced 7fd8fa30a700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1541008781.641749977
+========================================================================================
+Report      : INFO
+Date        : qua out 31 14:59:41 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <3069>
+Thread      : spliced 7fd8fa30a700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1541008781.688551438
+========================================================================================
+Report      : INFO
+Date        : qua out 31 14:59:41 -03 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <3069>
+Thread      : spliced 7fd8fa30a700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1541008781.693263293
+========================================================================================
+Report      : INFO
+Date        : qua out 31 14:59:41 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3069>
+Thread      : spliced 7fd8fa30a700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541008781.696251021
+========================================================================================
+Report      : WARNING
+Date        : qua out 31 14:59:41 -03 2018
+Description : using network interface wlp1s0 (10.10.10.80) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <3069>
+Thread      : ddsi2 7fd8f9a8e700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1541008781.744505705
+========================================================================================
+Report      : INFO
+Date        : qua out 31 14:59:41 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3069>
+Thread      : ddsi2 7fd8f9a8e700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541008781.749950231
+========================================================================================
+Report      : INFO
+Date        : qua out 31 14:59:42 -03 2018
+Description : The durability service can by identified by ID: 831136264
+Node        : neumann-linux
+Process     : java <3069>
+Thread      : durability 7fd8f9e52700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1541008782.638467128
+========================================================================================
+Report      : INFO
+Date        : qua out 31 14:59:49 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3069>
+Thread      : durability 7fd8f9e52700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541008789.645571948
+========================================================================================
+Report      : WARNING
+Date        : qua out 31 15:06:13 -03 2018
+Description : Missed heartbeat for node - heartbeat id : 1522341718. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3069>
+Thread      : OSPL Garbage Collector 7fd8fa143700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541009173.729088133
+========================================================================================
+Report      : WARNING
+Date        : seg nov 05 20:17:35 -02 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : main thread 7f8bbd128700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1541456255.565268715
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 20:17:35 -02 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : spliced 7f8ba15ae700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1541456255.720332129
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 20:17:35 -02 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : spliced 7f8ba15ae700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1541456255.735600476
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 20:17:35 -02 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : spliced 7f8ba15ae700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1541456255.735973999
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 20:17:35 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : spliced 7f8ba15ae700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541456255.736404449
+========================================================================================
+Report      : WARNING
+Date        : seg nov 05 20:17:35 -02 2018
+Description : using network interface wlp1s0 (192.168.0.6) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : ddsi2 7f8ba0d32700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1541456255.775067825
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 20:17:35 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : ddsi2 7f8ba0d32700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541456255.779375308
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 20:17:36 -02 2018
+Description : The durability service can by identified by ID: 1300257929
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : durability 7f8ba10f6700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1541456256.073776898
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 20:17:43 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : durability 7f8ba10f6700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541456263.080308592
+========================================================================================
+Report      : WARNING
+Date        : seg nov 05 20:34:17 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 2138310657. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : OSPL Garbage Collector 7f8ba13e7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541457257.810690524
+========================================================================================
+Report      : WARNING
+Date        : seg nov 05 20:43:37 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 2087492874. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : OSPL Garbage Collector 7f8ba13e7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541457817.853171437
+========================================================================================
+Report      : WARNING
+Date        : seg nov 05 21:40:40 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 529844354. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : OSPL Garbage Collector 7f8ba13e7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541461240.077765331
+========================================================================================
+Report      : WARNING
+Date        : seg nov 05 21:59:00 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 629319543. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : OSPL Garbage Collector 7f8ba13e7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541462340.145798432
+========================================================================================
+Report      : WARNING
+Date        : seg nov 05 22:01:22 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1499716336. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : OSPL Garbage Collector 7f8ba13e7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541462482.150729696
+========================================================================================
+Report      : WARNING
+Date        : seg nov 05 22:05:28 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1243891957. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : OSPL Garbage Collector 7f8ba13e7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541462728.175601613
+========================================================================================
+Report      : WARNING
+Date        : seg nov 05 22:21:30 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 749918844. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30649>
+Thread      : OSPL Garbage Collector 7f8ba13e7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541463690.234607178
+========================================================================================
+Report      : WARNING
+Date        : seg nov 05 22:22:04 -02 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <3276>
+Thread      : main thread 7f6e1cce3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1541463724.614093983
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 22:22:04 -02 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <3276>
+Thread      : spliced 7f6e18014700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1541463724.623497449
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 22:22:04 -02 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <3276>
+Thread      : spliced 7f6e18014700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1541463724.630419736
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 22:22:04 -02 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <3276>
+Thread      : spliced 7f6e18014700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1541463724.630827793
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 22:22:04 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3276>
+Thread      : spliced 7f6e18014700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541463724.631276312
+========================================================================================
+Report      : WARNING
+Date        : seg nov 05 22:22:04 -02 2018
+Description : using network interface wlp1s0 (192.168.0.6) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <3276>
+Thread      : ddsi2 7f6e00940700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1541463724.633056011
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 22:22:04 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3276>
+Thread      : ddsi2 7f6e00940700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541463724.637865805
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 22:22:04 -02 2018
+Description : The durability service can by identified by ID: 1610272504
+Node        : neumann-linux
+Process     : java <3276>
+Thread      : durability 7f6e00caf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1541463724.849320973
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 22:22:11 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3276>
+Thread      : durability 7f6e00caf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541463731.856895722
+========================================================================================
+Report      : WARNING
+Date        : seg nov 05 22:22:57 -02 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <3349>
+Thread      : main thread 7f097a137700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1541463777.517357699
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 22:22:57 -02 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <3349>
+Thread      : spliced 7f096002a700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1541463777.527136118
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 22:22:57 -02 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <3349>
+Thread      : spliced 7f096002a700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1541463777.534095908
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 22:22:57 -02 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <3349>
+Thread      : spliced 7f096002a700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1541463777.534396369
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 22:22:57 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3349>
+Thread      : spliced 7f096002a700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541463777.534851857
+========================================================================================
+Report      : WARNING
+Date        : seg nov 05 22:22:57 -02 2018
+Description : using network interface wlp1s0 (192.168.0.6) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <3349>
+Thread      : ddsi2 7f0959d87700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1541463777.536486419
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 22:22:57 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3349>
+Thread      : ddsi2 7f0959d87700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541463777.541240584
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 22:22:57 -02 2018
+Description : The durability service can by identified by ID: 1417447015
+Node        : neumann-linux
+Process     : java <3349>
+Thread      : durability 7f095a0f6700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1541463777.754042059
+========================================================================================
+Report      : INFO
+Date        : seg nov 05 22:23:04 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3349>
+Thread      : durability 7f095a0f6700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541463784.761351105
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 08:57:07 -02 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : main thread 7ff9e14bb700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1541588227.413570684
+========================================================================================
+Report      : INFO
+Date        : qua nov 07 08:57:10 -02 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : spliced 7ff9c814c700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1541588230.976743630
+========================================================================================
+Report      : INFO
+Date        : qua nov 07 08:57:11 -02 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : spliced 7ff9c814c700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1541588231.980892660
+========================================================================================
+Report      : INFO
+Date        : qua nov 07 08:57:11 -02 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : spliced 7ff9c814c700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1541588231.981316165
+========================================================================================
+Report      : INFO
+Date        : qua nov 07 08:57:15 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : spliced 7ff9c814c700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541588235.597358479
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 08:57:15 -02 2018
+Description : using network interface wlp1s0 (139.82.153.142) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : ddsi2 7ff9c0433700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1541588235.771998355
+========================================================================================
+Report      : INFO
+Date        : qua nov 07 08:57:15 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : ddsi2 7ff9c0433700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541588235.804074113
+========================================================================================
+Report      : INFO
+Date        : qua nov 07 08:57:16 -02 2018
+Description : The durability service can by identified by ID: 2021628402
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : durability 7ff9c07f7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1541588236.343180908
+========================================================================================
+Report      : INFO
+Date        : qua nov 07 08:57:23 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : durability 7ff9c07f7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541588243.349126977
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 09:09:03 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1445532638. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541588943.652635455
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 09:15:45 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1323626301. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541589345.689942117
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 09:20:15 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1557163581. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541589615.700463103
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 09:27:09 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1044256047. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541590029.733947880
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 09:39:31 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 2063020660. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541590771.780025213
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 09:43:03 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 427164082. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541590983.791150514
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 09:50:43 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1532196221. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541591443.812973867
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 09:55:33 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1900644811. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541591733.834431103
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 10:01:19 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 704725821. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541592079.870122520
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 10:05:31 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 328949993. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541592331.888309009
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 10:13:15 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 651295648. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541592795.908673740
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 10:19:49 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 180557732. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541593189.941331499
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 10:24:01 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1741048545. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541593441.956693665
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 10:25:11 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1998189408. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541593511.951546442
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 10:36:02 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 950710224. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541594162.009118486
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 10:38:06 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1624927655. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541594286.015748161
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 10:57:02 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1715591622. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541595422.095812566
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 10:58:08 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 67396224. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541595488.092662335
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 11:04:11 -02 2018
+Description : writer 787f99f2:5b:1:102 considering reader 3a0062f1:11e:1:107 non-responsive
+
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : xmit.user 7ff9c00d6700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_transmit.c/787/0/1541595851.391986660
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 11:04:16 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 973103857. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541595856.113280928
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 11:05:18 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 213458758. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541595918.131337681
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 11:13:24 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 2043363542. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541596404.163335178
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 11:29:36 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1573039408. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541597376.230261123
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 11:34:14 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1282408288. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541597654.234399711
+========================================================================================
+Report      : WARNING
+Date        : qua nov 07 11:35:22 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1610632164. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6376>
+Thread      : OSPL Garbage Collector 7ff9c0ad7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541597722.233612818
+========================================================================================
+Report      : WARNING
+Date        : qui nov 08 10:11:12 -02 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : main thread 7f8341d64700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1541679072.501031514
+========================================================================================
+Report      : INFO
+Date        : qui nov 08 10:11:12 -02 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : spliced 7f833c054700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1541679072.617009561
+========================================================================================
+Report      : INFO
+Date        : qui nov 08 10:11:12 -02 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : spliced 7f833c054700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1541679072.632667321
+========================================================================================
+Report      : INFO
+Date        : qui nov 08 10:11:12 -02 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : spliced 7f833c054700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1541679072.633264825
+========================================================================================
+Report      : INFO
+Date        : qui nov 08 10:11:12 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : spliced 7f833c054700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541679072.633888921
+========================================================================================
+Report      : WARNING
+Date        : qui nov 08 10:11:12 -02 2018
+Description : using network interface enp2s0 (139.82.100.180) selected arbitrarily from: enp2s0, wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : ddsi2 7f8321962700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1541679072.672980576
+========================================================================================
+Report      : INFO
+Date        : qui nov 08 10:11:12 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : ddsi2 7f8321962700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541679072.677728316
+========================================================================================
+Report      : INFO
+Date        : qui nov 08 10:11:13 -02 2018
+Description : The durability service can by identified by ID: 1150875548
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : durability 7f8321ce2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1541679073.380722250
+========================================================================================
+Report      : INFO
+Date        : qui nov 08 10:11:20 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : durability 7f8321ce2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1541679080.386927216
+========================================================================================
+Report      : WARNING
+Date        : qui nov 08 10:12:12 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 19477516. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : OSPL Garbage Collector 7f8321fc2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541679132.649160657
+========================================================================================
+Report      : WARNING
+Date        : qui nov 08 10:14:52 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 311928092. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : OSPL Garbage Collector 7f8321fc2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541679292.652068674
+========================================================================================
+Report      : WARNING
+Date        : qui nov 08 10:15:32 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1017288398. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : OSPL Garbage Collector 7f8321fc2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541679332.657802621
+========================================================================================
+Report      : WARNING
+Date        : qui nov 08 10:18:52 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1040740120. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : OSPL Garbage Collector 7f8321fc2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541679532.682002648
+========================================================================================
+Report      : WARNING
+Date        : qui nov 08 10:27:48 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1040740120. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : OSPL Garbage Collector 7f8321fc2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541680068.702723593
+========================================================================================
+Report      : WARNING
+Date        : qui nov 08 10:28:22 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1040740120. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : OSPL Garbage Collector 7f8321fc2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541680102.718356152
+========================================================================================
+Report      : WARNING
+Date        : qui nov 08 10:28:54 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 56391562. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : OSPL Garbage Collector 7f8321fc2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541680134.706594332
+========================================================================================
+Report      : WARNING
+Date        : qui nov 08 10:31:12 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 338492728. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : OSPL Garbage Collector 7f8321fc2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541680272.717463969
+========================================================================================
+Report      : WARNING
+Date        : qui nov 08 10:32:46 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 685577579. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : OSPL Garbage Collector 7f8321fc2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541680366.731247943
+========================================================================================
+Report      : WARNING
+Date        : qui nov 08 10:33:52 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 2140064445. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : OSPL Garbage Collector 7f8321fc2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541680432.738440778
+========================================================================================
+Report      : WARNING
+Date        : qui nov 08 10:36:08 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1654786716. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : OSPL Garbage Collector 7f8321fc2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541680568.746159719
+========================================================================================
+Report      : WARNING
+Date        : qui nov 08 10:54:12 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1609481379. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6800>
+Thread      : OSPL Garbage Collector 7f8321fc2700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1541681652.817227649
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 10:21:16 -02 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : main thread 7f0529b59700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1542630076.436988712
+========================================================================================
+Report      : INFO
+Date        : seg nov 19 10:21:16 -02 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : spliced 7f052403d700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1542630076.606640433
+========================================================================================
+Report      : INFO
+Date        : seg nov 19 10:21:16 -02 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : spliced 7f052403d700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1542630076.617621255
+========================================================================================
+Report      : INFO
+Date        : seg nov 19 10:21:16 -02 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : spliced 7f052403d700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1542630076.617961654
+========================================================================================
+Report      : INFO
+Date        : seg nov 19 10:21:16 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : spliced 7f052403d700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542630076.618401440
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 10:21:16 -02 2018
+Description : using network interface wlp1s0 (139.82.153.142) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : ddsi2 7f0509548700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1542630076.640948896
+========================================================================================
+Report      : INFO
+Date        : seg nov 19 10:21:16 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : ddsi2 7f0509548700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542630076.646886232
+========================================================================================
+Report      : INFO
+Date        : seg nov 19 10:21:17 -02 2018
+Description : The durability service can by identified by ID: 995676911
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : durability 7f05098b7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1542630077.449765256
+========================================================================================
+Report      : INFO
+Date        : seg nov 19 10:21:24 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : durability 7f05098b7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542630084.457708129
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 10:22:08 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 723379935. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542630128.641177190
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 10:29:22 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 264595287. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542630562.667277729
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 10:30:18 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 231039421. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542630618.661637341
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 10:39:12 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1967797332. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542631152.696383450
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 10:42:12 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 415209902. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542631332.715249247
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 10:44:06 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1923714048. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542631446.730449428
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 10:49:48 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 426990671. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542631788.753193995
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 10:52:06 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 831795268. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542631926.754916492
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 10:52:26 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1055952507. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542631946.764936674
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 10:59:36 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 464166868. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542632376.793545028
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 11:02:10 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1350126760. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542632530.788462428
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 11:04:18 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 2112760311. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542632658.800839702
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 11:11:16 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 844287385. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542633076.825003261
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 11:14:44 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 2140188630. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542633284.838318919
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 11:15:00 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 133701385. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542633300.852158180
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 11:45:44 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1925014462. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542635144.967160163
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 11:47:54 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 824518587. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542635274.990900144
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 11:54:03 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 155968016. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : OSPL Garbage Collector 7f0509b97700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542635643.000378129
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 17:29:51 -02 2018
+Description : Processing of lease 0x7f04e4096440 is behind schedule; expiry-time=1542635732.993323413s and lag=20058.095046907s (actionId=1 and duration=10.000000000s). Assuming resuming after hibernate...
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : watchdog 7f0510068700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/775/0/1542655791.088395193
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 17:29:51 -02 2018
+Description : Processing of lease 0x7f04e4096440 is behind schedule; expiry-time=1542635732.993323413s and lag=20058.095133457s (actionId=7 and duration=10.000000000s). Assuming resuming after hibernate...
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : watchdog 7f05090ec700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/775/0/1542655791.088468806
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 17:29:51 -02 2018
+Description : Processing of lease 0x7f04e4096440 is behind schedule; expiry-time=1542635732.993323413s and lag=20058.095200631s (actionId=1 and duration=10.000000000s). Assuming resuming after hibernate...
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : watchdog 7f0510013700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/775/0/1542655791.088533551
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 17:29:51 -02 2018
+Description : Processing of lease 0x7f04e0002320 is behind schedule; expiry-time=1542635731.794636967s and lag=20059.293958041s (actionId=1 and duration=10.000000000s). Assuming resuming after hibernate...
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : watchdog 7f052402c700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/775/0/1542655791.088604863
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 17:29:51 -02 2018
+Description : Processing of lease 0x7f04e400ca80 is behind schedule; expiry-time=1542635724.997936677s and lag=20066.090658331s (actionId=5 and duration=2.000000000s). This is often an indication that the machine is too busy. The lease manager will continue to function normally.
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : watchdog 7f052402c700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/795/0/1542655791.790325407
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 17:29:51 -02 2018
+Description : Processing of lease 0x7f04e400ca10 is behind schedule; expiry-time=1542635724.997935344s and lag=20066.090659664s (actionId=6 and duration=2.000000000s). This is often an indication that the machine is too busy. The lease manager will continue to function normally.
+Node        : neumann-linux
+Process     : java <6699>
+Thread      : watchdog 7f052402c700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/795/0/1542655791.790358126
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 18:02:09 -02 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : main thread 7fa5fb8af700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1542657729.826271621
+========================================================================================
+Report      : INFO
+Date        : seg nov 19 18:02:09 -02 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : spliced 7fa5dc0ed700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1542657729.982640488
+========================================================================================
+Report      : INFO
+Date        : seg nov 19 18:02:10 -02 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : spliced 7fa5dc0ed700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1542657730.017397227
+========================================================================================
+Report      : INFO
+Date        : seg nov 19 18:02:10 -02 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : spliced 7fa5dc0ed700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1542657730.018016922
+========================================================================================
+Report      : INFO
+Date        : seg nov 19 18:02:10 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : spliced 7fa5dc0ed700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542657730.018715219
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 18:02:10 -02 2018
+Description : using network interface wlp1s0 (192.168.0.19) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : ddsi2 7fa5b72f7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1542657730.039310856
+========================================================================================
+Report      : INFO
+Date        : seg nov 19 18:02:10 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : ddsi2 7fa5b72f7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542657730.043258669
+========================================================================================
+Report      : INFO
+Date        : seg nov 19 18:02:10 -02 2018
+Description : The durability service can by identified by ID: 2108239129
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : durability 7fa5b7666700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1542657730.181519404
+========================================================================================
+Report      : INFO
+Date        : seg nov 19 18:02:17 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : durability 7fa5b7666700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542657737.191838358
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 18:02:44 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1562066965. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542657764.024429251
+========================================================================================
+Report      : WARNING
+Date        : seg nov 19 18:14:54 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1537142073. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542658494.073598639
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 09:01:19 -02 2018
+Description : Processing of lease 0x7fa5b0096440 is behind schedule; expiry-time=1542660232.722678057s and lag=51447.149891494s (actionId=1 and duration=10.000000000s). Assuming resuming after hibernate...
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : watchdog 7fa5dc017700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/775/0/1542711679.872599749
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 09:01:19 -02 2018
+Description : Processing of lease 0x7fa5b000ca80 is behind schedule; expiry-time=1542660224.175480889s and lag=51455.697517828s (actionId=5 and duration=2.000000000s). This is often an indication that the machine is too busy. The lease manager will continue to function normally.
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : watchdog 7fa5dc0dc700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/795/0/1542711679.873016302
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 09:01:19 -02 2018
+Description : Processing of lease 0x7fa5b000ca10 is behind schedule; expiry-time=1542660224.175479496s and lag=51455.697519221s (actionId=6 and duration=2.000000000s). This is often an indication that the machine is too busy. The lease manager will continue to function normally.
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : watchdog 7fa5dc0dc700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/795/0/1542711679.873054181
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 09:01:19 -02 2018
+Description : Processing of lease 0x7fa5b8002460 is behind schedule; expiry-time=1542660230.870085883s and lag=51449.002912834s (actionId=1 and duration=10.000000000s). Assuming resuming after hibernate...
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : watchdog 7fa5dc0dc700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/775/0/1542711679.873074014
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 09:01:19 -02 2018
+Description : Processing of lease 0x7fa5c41b8670 is behind schedule; expiry-time=1542660232.476126426s and lag=51447.396872291s (actionId=1 and duration=10.000000000s). Assuming resuming after hibernate...
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : watchdog 7fa5dc0dc700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/775/0/1542711679.873089677
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 09:05:05 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 325147867. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542711905.896573469
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 09:05:47 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 765784988. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542711947.906034885
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 09:09:27 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 360862154. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542712167.921276456
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 09:10:39 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 893518496. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542712239.922114794
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 09:12:05 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 2085754432. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542712325.934303097
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 09:20:05 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1921012099. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542712805.963729577
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 09:49:18 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1288488395. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542714558.083372996
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 09:55:36 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1889700299. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542714936.100510805
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 10:03:18 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 2055226764. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542715398.130733302
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 10:42:35 -02 2018
+Description : Processing of lease 0x7fa5b000ca80 is behind schedule; expiry-time=1542716394.176763767s and lag=1361.514830126s (actionId=5 and duration=2.000000000s). This is often an indication that the machine is too busy. The lease manager will continue to function normally.
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : watchdog 7fa5dc0dc700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/795/0/1542717755.691603063
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 10:42:35 -02 2018
+Description : Processing of lease 0x7fa5b0096440 is behind schedule; expiry-time=1542716400.678648771s and lag=1355.012945122s (actionId=1 and duration=10.000000000s). Assuming resuming after hibernate...
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : watchdog 7fa5dc0dc700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/775/0/1542717755.691634611
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 10:42:35 -02 2018
+Description : Processing of lease 0x7fa5b000ca10 is behind schedule; expiry-time=1542716394.176762309s and lag=1361.514831584s (actionId=6 and duration=2.000000000s). This is often an indication that the machine is too busy. The lease manager will continue to function normally.
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : watchdog 7fa5dc0dc700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/795/0/1542717755.691668105
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 10:42:35 -02 2018
+Description : Processing of lease 0x7fa5b8002460 is behind schedule; expiry-time=1542716400.706455453s and lag=1354.985138440s (actionId=1 and duration=10.000000000s). Assuming resuming after hibernate...
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : watchdog 7fa5dc0dc700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/775/0/1542717755.691683065
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 10:42:35 -02 2018
+Description : Processing of lease 0x7fa5c41b8670 is behind schedule; expiry-time=1542716401.859631526s and lag=1353.831962367s (actionId=1 and duration=10.000000000s). Assuming resuming after hibernate...
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : watchdog 7fa5dc0dc700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/775/0/1542717755.691698089
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 10:47:21 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 640750880. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542718041.715038744
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 10:48:55 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 932390099. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542718135.736841075
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 10:59:59 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 479515760. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542718799.805743375
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 11:36:53 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 806045925. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542721013.900713842
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 11:41:07 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1401167408. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542721267.934076725
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 11:42:51 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 976633938. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542721371.938695623
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 11:43:05 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 2114268276. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542721385.920346905
+========================================================================================
+Report      : WARNING
+Date        : ter nov 20 11:49:43 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1420347302. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <14715>
+Thread      : OSPL Garbage Collector 7fa5b7946700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542721783.956065683
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 15:03:13 -02 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : main thread 7f6bfc1c7700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1542819793.361070287
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 15:03:13 -02 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : spliced 7f6bf806b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1542819793.375810024
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 15:03:13 -02 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : spliced 7f6bf806b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1542819793.383171512
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 15:03:13 -02 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : spliced 7f6bf806b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1542819793.383515127
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 15:03:13 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : spliced 7f6bf806b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542819793.384078553
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 15:03:13 -02 2018
+Description : using network interface wlp1s0 (139.82.153.142) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : ddsi2 7f6babb32700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1542819793.386078945
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 15:03:13 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : ddsi2 7f6babb32700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542819793.392346369
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 15:03:13 -02 2018
+Description : The durability service can by identified by ID: 573857731
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : durability 7f6be01e1700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1542819793.506411934
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 15:03:20 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : durability 7f6be01e1700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542819800.915715019
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 15:04:11 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1980886242. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542819851.401476557
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 15:04:33 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1362728472. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542819873.406878981
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 15:34:21 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 183712458. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542821661.517628008
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 15:42:49 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 383518316. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542822169.550763889
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 15:47:41 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 810992961. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542822461.552840608
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 15:48:35 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1380665854. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542822515.563746425
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 15:55:17 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 312711691. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542822917.581563654
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 15:55:39 -02 2018
+Description : writer 22345fc3:11c:1:102 considering reader 12a39a0b:11c:1:107 non-responsive
+
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : xmit.user 7f6bab889700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_transmit.c/787/0/1542822939.448514338
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 15:55:49 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 40540088. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542822949.590978887
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:03:17 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1508138378. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542823397.625435069
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:04:55 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1306095611. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542823495.629208183
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:05:41 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 317821059. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542823541.623455282
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:10:07 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 834517055. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542823807.644519230
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:11:21 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1510850451. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542823881.651122200
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:12:33 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 510900476. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542823953.662938568
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:13:35 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 184858236. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542824015.656785469
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:32:03 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1234736142. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542825123.743848925
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:32:23 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1518565402. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542825143.737475178
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:36:25 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1777747739. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542825385.759931990
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:37:31 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1220878899. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542825451.754741761
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:39:01 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 933863734. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542825541.767756543
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:39:29 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1564937360. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542825569.777796350
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:43:07 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1588334400. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542825787.775784549
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:47:19 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 801781998. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542826039.790671172
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:50:27 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 688492614. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542826227.811064964
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:52:43 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1828978761. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542826363.831770032
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:55:59 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 711567240. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542826559.831247296
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 16:59:31 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1076140152. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542826771.846619291
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:02:09 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 387884968. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542826929.868516436
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:02:13 -02 2018
+Description : writer 22345fc3:11c:1:102 considering reader 171ea7a8:11c:1:107 non-responsive
+
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : xmit.user 7f6bab889700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_transmit.c/787/0/1542826933.134622957
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:02:27 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1914480385. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542826947.869765105
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:03:19 -02 2018
+Description : writer 22345fc3:11c:1:102 considering reader 721ca701:11c:1:107 non-responsive
+
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : xmit.user 7f6bab889700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_transmit.c/787/0/1542826999.349225427
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:04:33 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1520172800. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542827073.865348607
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:09:11 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1209020125. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542827351.879771837
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:10:53 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 2031205079. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542827453.900741663
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:10:57 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 871849926. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542827457.898806746
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:17:49 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 114735387. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542827869.922540397
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:17:53 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1341874538. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542827873.929330154
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:18:19 -02 2018
+Description : writer 22345fc3:11c:1:102 considering reader 4ffb616a:11c:1:107 non-responsive
+
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : xmit.user 7f6bab889700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_transmit.c/787/0/1542827899.889237656
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:18:31 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1998320084. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542827911.927977187
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:19:37 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1543135597. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542827977.943642425
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:20:15 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 971045471. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542828015.933057374
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:22:39 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1260785297. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542828159.953988287
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:23:21 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 444068377. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542828201.951776878
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:24:09 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 661521833. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542828249.960209225
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:26:17 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1717063651. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542828377.971786480
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:26:19 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1915997113. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <3523>
+Thread      : OSPL Garbage Collector 7f6be0262700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542828379.962315534
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:27:56 -02 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : main thread 7f7ee0609700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1542828476.615597215
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 17:27:56 -02 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : spliced 7f7edc039700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1542828476.625132065
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 17:27:56 -02 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : spliced 7f7edc039700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1542828476.632192016
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 17:27:56 -02 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : spliced 7f7edc039700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1542828476.632520568
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 17:27:56 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : spliced 7f7edc039700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542828476.632973691
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:27:56 -02 2018
+Description : using network interface wlp1s0 (139.82.153.142) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : ddsi2 7f7ec2091700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1542828476.635829773
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 17:27:56 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : ddsi2 7f7ec2091700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542828476.643263314
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 17:27:57 -02 2018
+Description : The durability service can by identified by ID: 2141248714
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : durability 7f7ec2400700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1542828477.252697696
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 17:28:04 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : durability 7f7ec2400700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542828484.259845125
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 17:29:02 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 393314510. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : OSPL Garbage Collector 7f7ec26e0700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542828542.637252352
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 18:36:25 -02 2018
+Description : Processing of lease 0x7f7e9000ca80 is behind schedule; expiry-time=1542828586.638487895s and lag=3998.431797896s (actionId=5 and duration=2.000000000s). This is often an indication that the machine is too busy. The lease manager will continue to function normally.
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : watchdog 7f7edc028700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/795/0/1542832585.070296819
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 18:36:25 -02 2018
+Description : Processing of lease 0x7f7e90096440 is behind schedule; expiry-time=1542828594.638671876s and lag=3990.431613915s (actionId=1 and duration=10.000000000s). Assuming resuming after hibernate...
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : watchdog 7f7edc028700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/775/0/1542832585.070341079
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 18:36:25 -02 2018
+Description : Processing of lease 0x7f7e9000ca10 is behind schedule; expiry-time=1542828586.638486964s and lag=3998.431798827s (actionId=6 and duration=2.000000000s). This is often an indication that the machine is too busy. The lease manager will continue to function normally.
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : watchdog 7f7edc028700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/795/0/1542832585.070358314
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 18:36:25 -02 2018
+Description : Processing of lease 0x7f7eb4007b10 is behind schedule; expiry-time=1542828595.656903816s and lag=3989.413381975s (actionId=1 and duration=10.000000000s). Assuming resuming after hibernate...
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : watchdog 7f7edc028700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/775/0/1542832585.070371456
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 18:54:38 -02 2018
+Description : writer 7fa0dcca:116:1:102 considering reader 37e796c6:11c:1:107 non-responsive
+
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : xmit.user 7f7ec1cdf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_transmit.c/787/0/1542833678.742913351
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 18:54:43 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 937924294. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : OSPL Garbage Collector 7f7ec26e0700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542833683.141975897
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 18:54:59 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 363040999. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <21074>
+Thread      : OSPL Garbage Collector 7f7ec26e0700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542833699.146451659
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 18:55:03 -02 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : main thread 7faed5ffe700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1542833703.879328509
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 18:55:03 -02 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : spliced 7faed005d700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1542833703.889616768
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 18:55:03 -02 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : spliced 7faed005d700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1542833703.896700093
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 18:55:03 -02 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : spliced 7faed005d700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1542833703.897074052
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 18:55:03 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : spliced 7faed005d700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542833703.897523307
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 18:55:03 -02 2018
+Description : using network interface wlp1s0 (192.168.0.6) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : ddsi2 7faeb5c0c700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1542833703.899281563
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 18:55:03 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : ddsi2 7faeb5c0c700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542833703.909726832
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 18:55:04 -02 2018
+Description : The durability service can by identified by ID: 896628330
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : durability 7faeb5f7b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1542833704.127765618
+========================================================================================
+Report      : INFO
+Date        : qua nov 21 18:55:11 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : durability 7faeb5f7b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542833711.636674012
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 18:55:23 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 937924294. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542833723.919027030
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 18:55:25 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 2024877175. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542833725.907241741
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 18:57:49 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 2413056. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542833869.924578576
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 18:58:01 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 868530575. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542833881.915793571
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 19:13:49 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 485587143. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542834829.961695608
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 19:14:01 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1627508702. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542834841.973741066
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 19:23:14 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1727436179. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542835394.016531020
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 19:23:16 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1434954687. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542835396.013575229
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 19:26:08 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 2090819065. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542835568.028130276
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 19:26:28 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 850754176. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542835588.038895486
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 19:32:48 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 2126269705. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542835968.065163062
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 19:36:22 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 760115911. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542836182.076269354
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 19:42:12 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1458811122. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542836532.085948478
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 19:46:56 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1521016311. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542836816.125181485
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 19:57:50 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1520869864. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542837470.160051166
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 19:58:10 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1416570177. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542837490.169041548
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 20:00:36 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1803835782. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542837636.162951467
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 20:02:48 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1212936172. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542837768.172027549
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 20:08:12 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 158832424. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542838092.205921132
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 20:32:52 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1410884042. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542839572.307000516
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 20:35:40 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 927203908. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542839740.306013364
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 20:41:12 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 983189861. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542840072.332373912
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 20:44:48 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 441127511. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542840288.355845794
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 20:49:52 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 280430978. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542840592.374232960
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 20:51:20 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1026248019. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542840680.366996150
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 20:51:32 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 406100920. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542840692.377118345
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 20:53:34 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 466034380. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542840814.387856333
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 20:57:04 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1612379820. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542841024.386725054
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 20:57:44 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 372539834. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542841064.403601754
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 21:06:04 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1986793596. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542841564.426412308
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 21:09:28 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1493431841. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542841768.443097949
+========================================================================================
+Report      : WARNING
+Date        : qua nov 21 21:15:14 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 9900889. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : OSPL Garbage Collector 7faeb625b700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542842114.471533243
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 08:48:49 -02 2018
+Description : Processing of lease 0x7fae90096440 is behind schedule; expiry-time=1542842854.004703277s and lag=40875.824833645s (actionId=7 and duration=10.000000000s). Assuming resuming after hibernate...
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : watchdog 7faeb578e700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/775/0/1542883729.829566488
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 08:48:49 -02 2018
+Description : Processing of lease 0x7fae8c002320 is behind schedule; expiry-time=1542842854.244141444s and lag=40875.585683090s (actionId=1 and duration=10.000000000s). Assuming resuming after hibernate...
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : watchdog 7faed004c700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/775/0/1542883729.829835033
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 08:48:49 -02 2018
+Description : Processing of lease 0x7fae9000ca80 is behind schedule; expiry-time=1542842846.510248989s and lag=40883.319575545s (actionId=5 and duration=2.000000000s). This is often an indication that the machine is too busy. The lease manager will continue to function normally.
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : watchdog 7faed004c700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/795/0/1542883729.829861258
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 08:48:49 -02 2018
+Description : Processing of lease 0x7fae9000ca10 is behind schedule; expiry-time=1542842846.510248283s and lag=40883.319576251s (actionId=6 and duration=2.000000000s). This is often an indication that the machine is too busy. The lease manager will continue to function normally.
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : watchdog 7faed004c700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/795/0/1542883729.829887269
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 08:48:49 -02 2018
+Description : Processing of lease 0x7faea0057430 is behind schedule; expiry-time=1542842855.055541042s and lag=40874.774283492s (actionId=1 and duration=10.000000000s). Assuming resuming after hibernate...
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : watchdog 7faed004c700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_leaseManager/v_leaseManager.c/775/0/1542883729.829901522
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 08:48:50 -02 2018
+Description : thread tev failed to make progress
+
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : lease 7faeb5a68700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_servicelease.c/108/0/1542883730.832932062
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 08:48:51 -02 2018
+Description : thread tev once again made progress
+
+Node        : neumann-linux
+Process     : java <30706>
+Thread      : lease 7faeb5a68700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_servicelease.c/108/0/1542883731.833089321
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 09:10:16 -02 2018
+Description : Did not install signal handlers to cleanup resources.
+              To ensure cleanup for Java applications, the path to the 'jsig' library
+              (libjsig.so) must be set in the LD_PRELOAD environment variable.
+              This library is part of your Java distribution.
+              To ensure proper cleanup set this before starting your application.
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : main thread 7f5da1c1e700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OS abstraction layer/os_signalHandler.c/107/0/1542885016.999654565
+========================================================================================
+Report      : INFO
+Date        : qui nov 22 09:10:17 -02 2018
+Description : u_domainNew:Database allocated on heap
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : spliced 7f5d86096700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/user::u_domain::u_domainNew/u_domain.c/706/0/1542885017.009985057
+========================================================================================
+Report      : INFO
+Date        : qui nov 22 09:10:17 -02 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : spliced 7f5d86096700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/The OpenSplice domain service/u_domain.c/827/0/1542885017.017431309
+========================================================================================
+Report      : INFO
+Date        : qui nov 22 09:10:17 -02 2018
+Description : Service cmsoap disabled
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : spliced 7f5d86096700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/sr_componentInfo.c/439/0/1542885017.017826670
+========================================================================================
+Report      : INFO
+Date        : qui nov 22 09:10:17 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : spliced 7f5d86096700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542885017.018349268
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 09:10:17 -02 2018
+Description : using network interface wlp1s0 (139.82.153.142) selected arbitrarily from: wlp1s0, virbr0
+
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : ddsi2 7f5d8586f700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_nwif.c/668/0/1542885017.020059626
+========================================================================================
+Report      : INFO
+Date        : qui nov 22 09:10:17 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : ddsi2 7f5d8586f700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542885017.042700578
+========================================================================================
+Report      : INFO
+Date        : qui nov 22 09:10:17 -02 2018
+Description : The durability service can by identified by ID: 169317016
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : durability 7f5d85bde700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/DurabilityService/d_durability.c/476/0/1542885017.941669631
+========================================================================================
+Report      : INFO
+Date        : qui nov 22 09:10:25 -02 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : durability 7f5d85bde700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_serviceChangeState/v_service.c/329/0/1542885025.048432803
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 09:10:29 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1915976723. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : OSPL Garbage Collector 7f5d85ecf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542885029.023192471
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 09:11:07 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1915976723. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : OSPL Garbage Collector 7f5d85ecf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542885067.023246270
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 09:11:13 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1177995900. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : OSPL Garbage Collector 7f5d85ecf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542885073.039092854
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 09:14:07 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1701137569. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : OSPL Garbage Collector 7f5d85ecf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542885247.049146626
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 09:14:39 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 589781101. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : OSPL Garbage Collector 7f5d85ecf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542885279.046337153
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 09:40:25 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 542201375. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : OSPL Garbage Collector 7f5d85ecf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542886825.146040335
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 09:46:09 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 14208787. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : OSPL Garbage Collector 7f5d85ecf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542887169.171681334
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 09:52:57 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 958745799. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : OSPL Garbage Collector 7f5d85ecf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542887577.186322100
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 09:56:59 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 664600780. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : OSPL Garbage Collector 7f5d85ecf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542887819.209605059
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 10:00:19 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1715680672. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : OSPL Garbage Collector 7f5d85ecf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542888019.221886853
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 10:02:53 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1036984444. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : OSPL Garbage Collector 7f5d85ecf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542888173.222949658
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 10:03:23 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 512407993. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : OSPL Garbage Collector 7f5d85ecf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542888203.235261912
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 10:12:45 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 1519883298. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : OSPL Garbage Collector 7f5d85ecf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542888765.266907360
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 10:18:33 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 328332020. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : OSPL Garbage Collector 7f5d85ecf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542889113.282566558
+========================================================================================
+Report      : WARNING
+Date        : qui nov 22 10:27:45 -02 2018
+Description : Missed heartbeat for node - heartbeat id : 22355741. (DCPSPublication state 1)
+Node        : neumann-linux
+Process     : java <9340>
+Thread      : OSPL Garbage Collector 7f5d85ecf700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/v_spliced/v_spliced.c/2439/0/1542889665.326343619

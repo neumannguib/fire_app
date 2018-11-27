@@ -1,0 +1,8 @@
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+	at br.pucrio.inf.lac.CoreServer.main(CoreServer.java:68)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+	at br.pucrio.inf.lac.CoreServer.main(CoreServer.java:68)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+	at br.pucrio.inf.lac.CoreServer.main(CoreServer.java:68)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+	at br.pucrio.inf.lac.CoreServer.main(CoreServer.java:68)

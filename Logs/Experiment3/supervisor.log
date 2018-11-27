@@ -1,0 +1,49 @@
+ReliableSocket: new utils pool size = 3
+Supervisor Listening ...
+127.0.0.1:5500Fire detected!
+Fire risk
+Fire detected!
+Fire detected!
+Fire detected!
+Fire risk
+Fire detected!
+Fire risk
+Fire detected!
+Fire detected!
+Fire risk
+Fire risk
+Fire detected!
+Fire risk
+Fire detected!
+Fire risk
+Fire risk
+Fire detected!
+Fire risk
+Fire detected!
+Fire risk
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"AVGTemp",
+		"rule":"SELECT avg(sensorValue[0]) as value_tmp FROM
+		SensorData(sensorName='Temperature')
+		.win:time_batch(10 sec)",
+		"target":"local"
+	}}]
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"MaxAVG",
+		"rule":"SELECT max(value_tmp) as average_tmp FROM
+		AVGTemp.win:length_batch(3)",
+		"target":"global"
+	}}]
+[{
+	"MEPAQuery": {
+		"type":"start",
+		"label":"AVGHumidity",
+		"rule":"SELECT avg(sensorValue[0]) as value_humi FROM
+		SensorData(sensorName='Humidity')
+		.win:time_batch(10 sec)",
+		"target":"global"
+	}}]

@@ -1,0 +1,32 @@
+========================================================================================
+Report      : ERROR
+Date        : seg nov 26 12:15:30 -02 2018
+Description : Durability failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 2032.402815110 s.
+Node        : neumann-linux
+Process     : java <14492>
+Thread      : leaseThread 7f622c594700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/Durability Service/d_durability.c/182/0/1543241730.238722407
+========================================================================================
+Report      : ERROR
+Date        : seg nov 26 12:15:30 -02 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 2032.818272864 s.
+Node        : neumann-linux
+Process     : java <14492>
+Thread      : OSPL Lease Renew Thread 7f622c856700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/spliced.c/153/0/1543241730.242128503
+========================================================================================
+Report      : ERROR
+Date        : seg nov 26 12:15:30 -02 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 544.162755778 s.
+Node        : neumann-linux
+Process     : java <19726>
+Thread      : OSPL Lease Renew Thread 7f1838299700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/spliced.c/153/0/1543241730.242266340
+========================================================================================
+Report      : ERROR
+Date        : seg nov 26 12:15:30 -02 2018
+Description : Durability failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 544.140699766 s.
+Node        : neumann-linux
+Process     : java <19726>
+Thread      : leaseThread 7f1803fcc700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/Durability Service/d_durability.c/182/0/1543241730.242317469
