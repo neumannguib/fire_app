@@ -1,8 +1,15 @@
 package br.pucrio.inf.lac.deprecated;
 
-//Adaptado de Eric Leschinski <https://stackoverflow.com/a/7199522>
 
 import java.util.ArrayList;
+
+/**
+ * DEPRECATED
+ * 
+ * It verifies some coordinates to be inside a polygon.
+ * Adaptado de Eric Leschinski <https://stackoverflow.com/a/7199522>
+ * @author Guilherme Neumann
+ */
 public class Runner
 {
     public static double PI = 3.14159265;

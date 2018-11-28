@@ -1,7 +1,12 @@
 package br.pucrio.inf.lac.mhub_simulator;
 
 
-
+/**
+ * Simulate mobile hubs 
+ * 
+ * @author Guilherme Neumann
+ *
+ */
 
 public class simulator {
 	private static String		gatewayIP   = "127.0.0.1";
@@ -9,9 +14,11 @@ public class simulator {
 	
 	public static void main(String[] args) {
 		mhub nodes[];
-		
+		/** Number of mhubs*/
 		int number=20;
+		/** Number of sensor data packages*/
 	    int num_sensors =10;
+	    /** Number of event data packages*/
 	    int num_events=10;
 	    if(args.length!=0) {
 	    	gatewayIP=args[0];

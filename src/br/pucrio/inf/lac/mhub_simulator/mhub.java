@@ -69,6 +69,7 @@ public class mhub implements NodeConnectionListener {
 			  System.out.println(serializableContent);
 			  message.setContentObject(serializableContent);
 			  connection.sendMessage(message);
+			 
 			  
       } catch (IOException e) {
           e.printStackTrace();

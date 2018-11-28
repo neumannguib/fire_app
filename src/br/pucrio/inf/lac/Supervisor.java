@@ -12,7 +12,10 @@ import lac.cnclib.net.NodeConnectionListener;
 import lac.cnclib.net.mrudp.MrUdpNodeConnection;
 import lac.cnclib.sddl.message.ApplicationMessage;
 import lac.cnclib.sddl.message.Message;
- 
+/**
+ * This class defines the client "Supervisor". It basically receives messages regarding fire detection and fire risk. 
+ * @author Guilherme Neumann
+ *  */
 public class Supervisor implements NodeConnectionListener {
  
   private static String			gatewayIP   = "127.0.0.1";

@@ -35,7 +35,13 @@ public class shape_collection {
 		e.printStackTrace();
 	}
  }
-	
+/**
+ * Verify if a coordinate is inside the class area
+ * 
+ * @param latitude
+ * @param longitude
+ * @return ponto Point
+ */
 public Point area(double latitude, double longitude) {
 	Point ponto = new Point();
 	if(is_valid_gps_coordinate(latitude,longitude)) {
@@ -54,6 +60,12 @@ public Point area(double latitude, double longitude) {
 	return ponto;
 }
 
+/** Verify if a coordinate is valid
+ * @param latitude double
+ * @param longitude double
+ * 
+ * @return boolean
+ */
 public static boolean is_valid_gps_coordinate(double latitude, 
 	    double longitude)
 	{

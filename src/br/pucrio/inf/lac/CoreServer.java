@@ -45,28 +45,43 @@ public class CoreServer implements UDIDataReaderListener<ApplicationObject> {
     private static final ArrayList<String> sensors = new ArrayList<String>();
     
     /** Connection to the database server */
+    /**Database IP*/
     private static String ip="localhost";
+    /**Database Port*/
     private static String port="5432";
+    /**Database Name*/
     private static String db="Fire_db";
-    private static String user;
-    private static String password;
+    /**Database User*/
+    private static String user="SFS";
+    /**Database Password*/
+    private static String password="adminadmin";
+    /**Database Connection Variable*/
   	Connection conn = new database_connection().database_connection(ip,port,db,user,password); 
     
     /** Input reader */
     private static Scanner sc = new Scanner( System.in );
     
     /** Clients ID */
+    /**Fire Department ID*/
     private static UUID nodeFire=null; 
+    /**Supervisor ID*/
     private static UUID nodeSupervisor=null;
     
     /** Auxiliary variables*/
+    /** Total Number of events*/
     public static int events=0;
+    /** Total Number of temperature data packages*/
     public static int sensor_temp=0;
+    /** Total Number of humidity data packages*/
     public static int sensor_humi=0;
+    /** Message to Mhubs*/
     public static String message[] = new String[3];
-    public static double maxtemp;
-    public static double maxtemp_fire;
-    public static double minhumi;
+    /** MAX temperature to inform supervisor*/
+    public static double maxtemp=100;
+    /** MAX temperature to inform Fire Department*/
+    public static double maxtemp_fire=300;
+    /** MIM humidity to inform supervisor*/
+    public static double minhumi=35;
     
     
 	public static void main( String[] args ) {
@@ -183,7 +198,7 @@ public class CoreServer implements UDIDataReaderListener<ApplicationObject> {
 	/**
      * Constructor
      */
-    private CoreServer() {
+    public CoreServer() {
     	// Create a layer and participant
         core = UniversalDDSLayerFactory.getInstance( SupportedDDSVendors.OpenSplice );
         core.createParticipant( UniversalDDSLayerFactory.CNET_DOMAIN );
@@ -243,7 +258,7 @@ public class CoreServer implements UDIDataReaderListener<ApplicationObject> {
      * @throws ParseException 
      * @throws SQLException 
      */
-    private void handleEvent( final String label, JSONObject object, Double latitude , Double longitude, Timestamp timestamp) throws ParseException, SQLException {
+    public void handleEvent( final String label, JSONObject object, Double latitude , Double longitude, Timestamp timestamp, UUID nodeId) throws ParseException, SQLException {
 
     	ApplicationMessage appMsg = new ApplicationMessage();
     	Statement st = conn.createStatement();
@@ -281,7 +296,7 @@ public class CoreServer implements UDIDataReaderListener<ApplicationObject> {
 							
 							if (!result.next()) {
 								try {
-									st.executeUpdate("INSERT INTO events values('Fire',"+latitude+","+longitude+",'"+sdf.format(timestamp)+"',"+avg+");");
+									st.executeUpdate("INSERT INTO events values('Fire',"+latitude+","+longitude+",'"+sdf.format(timestamp)+"',"+avg+",'"+nodeId+"');");
 								} catch (SQLException e) {
 									// TODO Auto-generated catch block
 									e.printStackTrace();
@@ -311,7 +326,7 @@ public class CoreServer implements UDIDataReaderListener<ApplicationObject> {
 							
 							if (!result.next()) {
 								try {
-										st.executeUpdate("INSERT INTO events values('Fire risk',"+latitude+","+longitude+",'"+sdf.format(timestamp)+"',"+avg_humi+");");
+										st.executeUpdate("INSERT INTO events values('Fire risk',"+latitude+","+longitude+",'"+sdf.format(timestamp)+"',"+avg_humi+",'"+nodeId+"');");
 								} catch (SQLException e) {
 									// TODO Auto-generated catch block
 									e.printStackTrace();
@@ -343,6 +358,12 @@ public class CoreServer implements UDIDataReaderListener<ApplicationObject> {
 		System.out.println( "\n>>" + tag + "(" + component + "): " + message + "\n" );
     }
 
+    /**
+     * All new packages are received here
+     * @param topicSample ApplicationObject
+     * @throws SuppressWarnings("resource")
+	   @throws Override
+     */
 	@SuppressWarnings("resource")
 	@Override
 	public void onNewData( ApplicationObject topicSample ) {
@@ -444,7 +465,7 @@ public class CoreServer implements UDIDataReaderListener<ApplicationObject> {
 	        					if (sensor_temp % 1000 == 0) //each 1000 packages, one is stored in the database
 	        						try {
 	        							st = conn.createStatement();
-	        							st.executeUpdate("INSERT INTO sensor_data values('Temperature',"+temp.get(0)+",'"+sdf.format(time)+"');");
+	        							st.executeUpdate("INSERT INTO sensor_data (data_type,datum,time_stamp,source,mhub) VALUES('Temperature',"+temp.get(0)+",'"+sdf.format(time)+"','"+source+"','"+nodeId+"');");
 
 	        						} catch (SQLException e) {
 	        							// TODO Auto-generated catch block
@@ -456,7 +477,7 @@ public class CoreServer implements UDIDataReaderListener<ApplicationObject> {
 		        				if (sensor_humi % 1000 == 0) //each 1000 packages, one is stored in the database
 		        					try {
 		        						st = conn.createStatement();
-		        						st.executeUpdate("INSERT INTO sensor_data values('Humidity',"+temp.get(0)+",'"+sdf.format(time)+"');");
+		        						st.executeUpdate("INSERT INTO sensor_data (data_type,datum,time_stamp,source,mhub) VALUES ('Humidity',"+temp.get(0)+",'"+sdf.format(time)+"','"+source+"','"+nodeId+"');");
 	
 		        					} catch (SQLException e) {
 		        						// TODO Auto-generated catch block
@@ -470,7 +491,7 @@ public class CoreServer implements UDIDataReaderListener<ApplicationObject> {
 	        			JSONObject data  = (JSONObject) object.get( "data" );
 	        			Double latitude = (Double) object.get("latitude");
 	        			Double longitude = (Double) object.get("longitude");
-	        			handleEvent( label, data , latitude, longitude, time);
+	        			handleEvent( label, data , latitude, longitude, time, nodeId);
 		        	break;
 		        	
 	        		case "ReplyData":		        	

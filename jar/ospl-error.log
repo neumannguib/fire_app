@@ -30,3 +30,1216 @@ Node        : neumann-linux
 Process     : java <19726>
 Thread      : leaseThread 7f1803fcc700
 Internals   : V6.4.140407OSS/3b83e82/3b83e82/Durability Service/d_durability.c/182/0/1543241730.242317469
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:47 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353947.704781367
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:47 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353947.741611620
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:47 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353947.741667985
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:47 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353947.941776447
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:48 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353948.041817857
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:48 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353948.241871490
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:48 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353948.469771067
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:48 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353948.641945302
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:48 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353948.650394304
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:48 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353948.750484987
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:48 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353948.850541336
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:49 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353949.050627055
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:49 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353949.450737897
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:49 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353949.650508709
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:49 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353949.750593518
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:49 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353949.850660992
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:50 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353950.050724089
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:50 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353950.304742925
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:50 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353950.404795457
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:50 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353950.450792349
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:50 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353950.469795931
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:50 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353950.504861568
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:50 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353950.650680247
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:50 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353950.704942214
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:50 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353950.750753870
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:50 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353950.850814995
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:51 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353951.050875592
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:51 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353951.105001495
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:51 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353951.450949675
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:51 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353951.650782051
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:51 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353951.750875553
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:51 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353951.850898575
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:51 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353951.905083533
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:52 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353952.050937834
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:59 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353959.854058106
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:59 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353959.854109326
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:25:59 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353959.861237514
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:00 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353960.346822227
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:00 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353960.346865054
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:00 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353960.346895934
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:00 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353960.346964461
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:00 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353960.346980214
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:00 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353960.446897725
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:00 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353960.546982137
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:00 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353960.547027169
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:00 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353960.747233843
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:00 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353960.854122937
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:01 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353961.047159726
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:01 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353961.147232554
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:01 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353961.147282836
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:01 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353961.347411419
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:01 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353961.747473879
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:01 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353961.854235501
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:01 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353961.947299617
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:01 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353961.954295264
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:02 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353962.054377185
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:02 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353962.254452016
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:02 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353962.347088943
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:02 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353962.654524614
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:02 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353962.854337687
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:02 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353962.954400427
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:03 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353963.054476000
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:26:03 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543353963.254523175
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:56 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354076.103382567
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:56 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354076.203469374
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:56 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354076.303602030
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:56 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354076.354611951
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:56 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354076.503717816
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:56 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354076.869718116
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:56 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354076.903789300
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:56 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354076.969814697
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:57 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354077.069924462
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:57 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354077.269992302
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:57 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354077.670077641
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:57 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354077.703871006
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:57 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354077.869803075
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:57 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354077.969893639
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:58 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354078.069983626
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:58 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354078.270074164
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:58 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354078.354773471
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:58 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354078.670151945
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:58 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354078.869919876
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:58 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354078.969964280
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:59 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354079.070031414
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:59 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354079.270188469
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:59 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354079.303998117
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:59 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354079.670244784
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:59 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354079.870050402
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:27:59 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354079.970147289
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:28:00 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354080.070282047
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:28:00 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354080.270394932
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:28:00 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354080.354892599
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:40:53 -02 2018
+Description : Durability failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 773.466816276 s.
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : leaseThread 7f23fb25d700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/Durability Service/d_durability.c/182/0/1543354853.821800843
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:40:53 -02 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 773.960500620 s.
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : OSPL Lease Renew Thread 7f23fb51f700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/OpenSplice domain service/spliced.c/153/0/1543354853.821881285
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:40:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354853.822153574
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:40:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : xmit.user 7f23fb290700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354853.822186915
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:40:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354853.822591758
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:41:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354883.822714347
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:41:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354913.822834415
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:42:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354943.822935986
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:42:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543354973.823005474
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:43:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355003.823141566
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:43:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355033.823223879
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:44:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355063.823294330
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:44:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355093.823371660
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:45:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355123.823503476
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:45:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355153.823615233
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:46:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355183.823735908
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:46:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355213.823804546
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:47:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355243.823879852
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:47:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355273.824010473
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:48:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355303.824130376
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:48:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355333.824247693
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:49:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355363.824366689
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:49:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355393.824427637
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:50:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355423.824571258
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:50:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355453.824705830
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:51:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355483.824818548
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:51:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355513.824937043
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:52:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355543.825055590
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:52:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355573.825172664
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:53:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355603.825290450
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:53:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355633.825402222
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:54:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355663.825515992
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:54:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355693.825637693
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:55:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355723.825752967
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:55:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355753.825872023
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:56:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355783.825981829
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:56:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355813.826077908
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:57:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355843.826198416
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:57:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355873.826328814
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:58:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355903.826420467
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:58:53 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355933.826480539
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:59:23 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355963.826630670
+========================================================================================
+Report      : ERROR
+Date        : ter nov 27 19:59:31 -02 2018
+Description : ddsi_conn_write failed -1
+
+Node        : neumann-linux
+Process     : java <19762>
+Thread      : tev 7f23fb2c3700
+Internals   : V6.4.140407OSS/3b83e82/3b83e82/ddsi2/q_xmsg.c/1051/0/1543355971.343085418
